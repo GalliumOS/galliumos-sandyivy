@@ -1,2 +1,2 @@
-# GalliumOS configs for the C710
-Device-specific files for GalliumOS on the Acer C710 Chromebook
+# galliumos-device-c710
+Config files for the acer c710 ChromeOS device

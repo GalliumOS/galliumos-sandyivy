@@ -1,0 +1,22 @@
+#!/usr/bin/make -f
+
+package = galliumos-device-c710
+build:
+	touch build
+
+clean:
+	rm -f build
+	rm -f `find . -name "*~"`
+	rm -rf debian/tmp 
+
+binary-arch: build
+	rm -rf debian/tmp
+	install -d debian/tmp/DEBIAN
+	install -d debian/tmp/etc/modprobe.d
+	install -p -m 644 etc/modprobe.d/* debian/tmp/etc/modprobe.d
+	dpkg-gencontrol -pgalliumos-device-c710
+	dpkg-deb --build -Zgzip debian/tmp ..
+
+binary: binary-arch
+
+.PHONY: binary binary-arch clean

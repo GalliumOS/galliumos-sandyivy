@@ -13,7 +13,9 @@ binary-arch: build
 	rm -rf debian/tmp
 	install -d debian/tmp/DEBIAN
 	install -d debian/tmp/etc/modprobe.d
+	install -d debian/tmp/etc/skel
 	install -p -m 644 etc/modprobe.d/* debian/tmp/etc/modprobe.d
+	cp -r etc/skel debian/tmp/etc/skel
 	dpkg-gencontrol -pgalliumos-device-c710
 	dpkg-deb --build -Zgzip debian/tmp ..
 

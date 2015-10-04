@@ -1,3 +1,51 @@
+galliumos-device-c710 (1.0.11) vivid-galliumos; urgency=medium
+
+  * Removed systemd slice files
+
+ -- Hugh Greenberg <hugh@galliumos.org>  Wed, 23 Sep 2015 22:16:16 -0600
+
+galliumos-device-c710 (1.0.10) vivid-galliumos; urgency=medium
+
+  * Reverted systemd slice files
+
+ -- Hugh Greenberg <hugh@galliumos.org>  Wed, 23 Sep 2015 22:16:16 -0600
+
+galliumos-device-c710 (1.0.9) vivid-galliumos; urgency=medium
+
+  * Actually added wifi sleep script
+
+ -- Hugh Greenberg <hugh@galliumos.org>  Wed, 23 Sep 2015 22:16:16 -0600
+
+galliumos-device-c710 (1.0.8) vivid-galliumos; urgency=medium
+
+  * Added wifi sleep script
+
+ -- Hugh Greenberg <hugh@galliumos.org>  Wed, 23 Sep 2015 22:16:16 -0600
+
+galliumos-device-c710 (1.0.7) vivid-galliumos; urgency=medium
+
+  * Removed nicedaemon as a dep
+
+ -- Hugh Greenberg <hugh@galliumos.org>  Wed, 23 Sep 2015 22:16:16 -0600
+
+galliumos-device-c710 (1.0.6) vivid-galliumos; urgency=medium
+
+  * Systemd slice file changes
+
+ -- Hugh Greenberg <hugh@galliumos.org>  Tue, 22 Sep 2015 22:16:16 -0600
+
+galliumos-device-c710 (1.0.5) vivid-galliumos; urgency=medium
+
+  * Systemd slice file changes
+
+ -- Hugh Greenberg <hugh@galliumos.org>  Thu, 10 Sep 2015 22:16:16 -0600
+
+galliumos-device-c710 (1.0.4) vivid-galliumos; urgency=medium
+
+  * Systemd machine.slice file
+
+ -- Hugh Greenberg <hugh@galliumos.org>  Wed, 9 Sep 2015 22:16:16 -0600
+
 galliumos-device-c710 (1.0.3) vivid-galliumos; urgency=medium
 
   * Systemd slice files

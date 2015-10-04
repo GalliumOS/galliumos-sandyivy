@@ -8,7 +8,7 @@ Standards-Version: 3.9.1
 Package: galliumos-device-c710
 Architecture: any
 Priority: required
-Depends: galliumos-base, xf86-input-cmt, nicedaemon, compton
+Depends: galliumos-base, xf86-input-cmt, compton
 Replaces: galliumos-haswell, gallimos-broadwell
 Multi-Arch: foreign
 Description: Gallium OS system files for the Acer C710 ChromeOS device

@@ -13,11 +13,9 @@ binary-arch: build
 	rm -rf debian/tmp
 	install -d debian/tmp/DEBIAN
 	install -d debian/tmp/etc/modprobe.d
-	install -d debian/tmp/etc/skel
 	install -d debian/tmp/lib/systemd/system-sleep
 	install -p -m 644 etc/modprobe.d/* debian/tmp/etc/modprobe.d
 	install -p -m 755 lib/systemd/system-sleep/* debian/tmp/lib/systemd/system-sleep
-	cp -r etc/skel debian/tmp/etc
 	dpkg-gencontrol -pgalliumos-device-c710
 	dpkg-deb --build -Zgzip debian/tmp ..
 

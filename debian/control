@@ -6,10 +6,9 @@ XSBC-Original-Maintainer: Hugh Greenberg <hugh@galliumos.org>
 Standards-Version: 3.9.1
 
 Package: galliumos-device-c710
-Architecture: any
+Architecture: all
 Priority: required
-Depends: galliumos-base, xf86-input-cmt, compton
+Depends: galliumos-base
 Replaces: galliumos-haswell, gallimos-broadwell
-Multi-Arch: foreign
 Description: Gallium OS system files for the Acer C710 ChromeOS device
  This package contains specific Acer C710 files for GalliumOS

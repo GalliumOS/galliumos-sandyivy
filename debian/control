@@ -9,6 +9,7 @@ Package: galliumos-device-c710
 Architecture: all
 Priority: required
 Depends: galliumos-base
+Provides: galliumos-device
 Replaces: galliumos-haswell, gallimos-broadwell
 Description: Gallium OS system files for the Acer C710 ChromeOS device
  This package contains specific Acer C710 files for GalliumOS

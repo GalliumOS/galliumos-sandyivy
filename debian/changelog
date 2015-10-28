@@ -1,3 +1,9 @@
+galliumos-device-c710 (1.0.15) vivid-galliumos; urgency=medium
+
+  * Added provides
+
+ -- Hugh Greenberg <hugh@galliumos.org>  Tue, 27 Oct 2015 22:16:16 -0600
+
 galliumos-device-c710 (1.0.14) vivid-galliumos; urgency=medium
 
   * Removed /etc/skel

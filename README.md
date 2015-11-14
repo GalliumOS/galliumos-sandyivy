@@ -1,2 +1,2 @@
-# galliumos-device-c710
-Config files for the acer c710 ChromeOS device
+# galliumos-sandy
+Platform support for Sandy Bridge and Ivy Bridge ChromeOS platforms for GalliumOS. Formerly galliumos-device-c710

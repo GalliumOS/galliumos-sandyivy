@@ -1,15 +1,16 @@
-Source: galliumos-device-c710
+Source: galliumos-sandy
 Section: admin
 Priority: required
 Maintainer: Hugh Greenberg <hugh@galliumos.org>
 XSBC-Original-Maintainer: Hugh Greenberg <hugh@galliumos.org>
 Standards-Version: 3.9.1
 
-Package: galliumos-device-c710
+Package: galliumos-sandy
 Architecture: all
 Priority: required
 Depends: galliumos-base
 Provides: galliumos-device
-Replaces: galliumos-haswell, gallimos-broadwell
-Description: Gallium OS system files for the Acer C710 ChromeOS device
- This package contains specific Acer C710 files for GalliumOS
+Conflicts: galliumos-haswell, galliumos-broadwell, galliumos-baytrail, galliumos-device-c710
+Replaces: galliumos-haswell, gallimos-broadwell, galliumos-baytrail, galliumos-device-c710
+Description: Gallium OS system files for Sandy Bridge and Ivy Bridge ChromeOS devices
+ This package contains specific Sandy Bridge or Ivy Bridge files for GalliumOS

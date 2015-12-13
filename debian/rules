@@ -1,6 +1,6 @@
 #!/usr/bin/make -f
 
-package = galliumos-device-c710
+package = galliumos-sandy
 build:
 	touch build
 
@@ -16,7 +16,7 @@ binary-arch: build
 	install -d debian/tmp/lib/systemd/system-sleep
 	install -p -m 644 etc/modprobe.d/* debian/tmp/etc/modprobe.d
 	install -p -m 755 lib/systemd/system-sleep/* debian/tmp/lib/systemd/system-sleep
-	dpkg-gencontrol -pgalliumos-device-c710
+	dpkg-gencontrol -pgalliumos-sandy
 	dpkg-deb --build -Zgzip debian/tmp ..
 
 binary: binary-arch

@@ -12,5 +12,5 @@ Depends: galliumos-base
 Provides: galliumos-device
 Conflicts: galliumos-haswell, galliumos-broadwell, galliumos-baytrail, galliumos-device-c710
 Replaces: galliumos-haswell, gallimos-broadwell, galliumos-baytrail, galliumos-device-c710
-Description: Gallium OS system files for Sandy Bridge and Ivy Bridge ChromeOS devices
- This package contains specific Sandy Bridge or Ivy Bridge files for GalliumOS
+Description: GalliumOS Sandy/Ivy Bridge customizations
+ This package contains specific Sandy/Ivy Bridge-specific files for GalliumOS

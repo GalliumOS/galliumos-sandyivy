@@ -1,15 +1,15 @@
-Source: galliumos-sandy
+Source: galliumos-sandyivy
 Section: admin
 Priority: required
 Maintainer: GalliumOS <galliumos@galliumos.org>
 Standards-Version: 3.9.1
 
-Package: galliumos-sandy
+Package: galliumos-sandyivy
 Architecture: all
 Priority: required
 Depends: galliumos-base
 Provides: galliumos-device
-Conflicts: galliumos-haswell, galliumos-broadwell, galliumos-baytrail, galliumos-device-c710
-Replaces: galliumos-haswell, gallimos-broadwell, galliumos-baytrail, galliumos-device-c710
+Conflicts: galliumos-haswell, galliumos-broadwell, galliumos-baytrail, galliumos-braswell, galliumos-skylake, galliumos-apollolake, galliumos-kabylake
+Replaces: galliumos-haswell, gallimos-broadwell, galliumos-baytrail, galliumos-braswell, galliumos-skylake, galliumos-apollolake, galliumos-kabylake
 Description: GalliumOS Sandy/Ivy Bridge customizations
  This package contains specific Sandy/Ivy Bridge-specific files for GalliumOS

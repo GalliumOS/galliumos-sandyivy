@@ -1,6 +1,6 @@
 #!/usr/bin/make -f
 
-package = galliumos-sandy
+package = galliumos-sandyivy
 build:
 	touch build
 
@@ -16,7 +16,7 @@ binary-arch: build
 	install -d debian/tmp/lib/systemd/system-sleep
 	install -p -m 644 etc/modprobe.d/* debian/tmp/etc/modprobe.d
 	install -p -m 755 lib/systemd/system-sleep/* debian/tmp/lib/systemd/system-sleep
-	dpkg-gencontrol -pgalliumos-sandy
+	dpkg-gencontrol -pgalliumos-sandyivy
 	dpkg-deb --build -Zgzip debian/tmp ..
 
 binary: binary-arch

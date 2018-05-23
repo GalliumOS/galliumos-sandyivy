@@ -7,9 +7,9 @@ Standards-Version: 3.9.1
 Package: galliumos-sandyivy
 Architecture: all
 Priority: required
-Depends: galliumos-base
+Depends: galliumos-base, linux-image-galliumos-sandyivy
 Provides: galliumos-device
-Conflicts: galliumos-haswell, galliumos-broadwell, galliumos-baytrail, galliumos-braswell, galliumos-skylake, galliumos-apollolake, galliumos-kabylake
-Replaces: galliumos-haswell, gallimos-broadwell, galliumos-baytrail, galliumos-braswell, galliumos-skylake, galliumos-apollolake, galliumos-kabylake
+Conflicts: Xgalliumos-sandyivy, galliumos-haswell, galliumos-baytrail, galliumos-broadwell, galliumos-samus, galliumos-braswell, galliumos-skylake, galliumos-apollolake, galliumos-kabylake
+#Replaces: galliumos-haswell, gallimos-broadwell, galliumos-baytrail, galliumos-braswell, galliumos-skylake, galliumos-apollolake, galliumos-kabylake
 Description: GalliumOS Sandy/Ivy Bridge customizations
  This package contains specific Sandy/Ivy Bridge-specific files for GalliumOS

@@ -1,0 +1,12 @@
+#!/bin/bash
+# GalliumOS Project
+# galliumos-sandyivy postinst
+#
+
+## update-initramfs to fix SD card reader on PARROT
+## Only if upgrading from version 3.0
+if [[ "$1" = "configure" $$ "$2" = "3.0" ]];then
+	update-initramfs -u
+	exit $?
+fi
+

@@ -1,3 +1,10 @@
+galliumos-sandyivy (3.0.1) bismuth; urgency=medium
+
+  * Rename /etc/modprobe.d/sdhci to sdhci.conf to fix SD Card reader on PARROT
+  * Add postinst script to update initramfs after update
+
+ -- reynhout <reynhout@galliumos.org>  Sun, 06 May 2018 07:04:41 +0000
+
 galliumos-sandyivy (3.0) bismuth; urgency=medium
 
   * Prepare for GalliumOS 3.0
